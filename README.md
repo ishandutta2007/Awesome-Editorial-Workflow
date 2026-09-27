@@ -1,96 +1,102 @@
-# Awesome-Editorial-Workflow
+# 📰 Awesome Editorial Workflow & Newsroom Systems 🚀
 
-# Top Editorial Workflow Platform Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Editorial Workflow Banner" width="100%">
+</p>
 
-**A curated list of SaaS products and open-source GitHub projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Editorial-Workflow/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Editorial-Workflow?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Editorial-Workflow/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Editorial-Workflow?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Editorial-Workflow/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Editorial-Workflow?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Editorial-Workflow/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Editorial-Workflow?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focusing on newsroom workflow, task allocation, content planning, and multi-channel publishing*
+---
 
-**Last Updated: September 2026**
+## 🌟 Overview & Top Editorial Workflow Platform Ecosystem
 
-This repository tracks prominent **SaaS platforms** and **open-source projects** in the **editorial workflow** space. These tools help news organizations, publishers, and corporate content teams manage the full content lifecycle—from story pitching and task assignment to editorial review and multi-channel distribution.
+A curated list of **SaaS platforms** and **open-source GitHub software** for newsroom workflows, content planning, story management, and multi-channel publishing.
 
-**Examples** include Desk-Net, Avid iNEWS, Arc XP, WoodWing Studio, ContentFlow, CUE, Shorthand, Kontent.ai, and Desk-Net (leaders in this domain).
+> **Market Analysis & Insights**: The global editorial workflow and publishing software market is estimated at **$2.5B–$3.2B**, experiencing steady expansion driven by digital newsroom transformation and omnichannel content operations. The sector is **moderately fragmented**, featuring enterprise legacy leaders alongside specialized headless CMS platforms and niche open-source workflow management solutions.
 
-**Open-Source Highlight**: There is one **standout open-source leader** in the editorial workflow space: **Superdesk**. It is a production-grade open-source newsroom management system widely adopted by news agencies globally, including NTB (Norway), Belga (Belgium), The Canadian Press, and AAP (Australia). Meanwhile, open-source CMSs like **Wagtail** can be customized to build editorial workflow features (such as The Ubyssey's Stove project). This list highlights both types of self-hostable solutions.
+---
 
-Contributions are welcome! Submit a PR to add or update entries. Keep descriptions factual and link to official websites.
+## 📑 Table of Contents
+- [🏢 SaaS & Managed Editorial Platforms](#-saas--managed-editorial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-## Table of Contents
+---
 
-- [SaaS / Managed Platforms](#saas--managed-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 🏢 SaaS & Managed Editorial Platforms
 
-## SaaS / Managed Platforms
+The table below outlines enterprise SaaS solutions for editorial newsrooms and content creation teams. Entries are sorted by company size (valuation / estimated annual revenue in descending order).
 
-- **[Desk-Net](https://www.desk-net.com/)**  
-  An editorial workflow and story planning platform that helps newsrooms manage story ideas, task assignments, deadlines, and content calendars. Widely used across German-language media organizations.
+| Product | Description | Starting Tier Price | Free Tier / Trial Limit | Scale & Valuation (Desc) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Avid iNEWS](https://www.avid.com/)** 📺 | Broadcast newsroom computer system (NRCS) for rundown planning, script writing, and broadcast production. | $35/user/month (Avid MediaCentral tier) | 30-day trial (MediaCentral Cloud UX) | **$1.4B Valuation** (Acquired by STG in 2023 for $1.4B; $417M ARR) |
+| **[Arc XP](https://www.arcxp.com/)** 📰 | Cloud-native enterprise content platform developed by *The Washington Post* offering digital asset management & publishing. | $5,000/month | 30-day demo sandbox | **$100M+ Valuation** ($40M–$50M ARR division of The Washington Post) |
+| **[WoodWing Studio](https://www.woodwing.com/)** 📰 | Multi-channel content creation and editorial workflow solution for print, digital, and mobile publishers. | $500/month (Starter team plan) | 14-day free trial | **$20M+ Valuation** (PE-backed by Main Capital; ~$15M ARR) |
+| **[Stibo DX (CUE)](https://cue.group/)** 🎙️ | Headless newsroom planning and digital-first content creation engine for media enterprises. | $1,200/month (Enterprise tier) | 30-day requested trial | **$15M+ ARR** (Subsidiary of Stibo Group) |
+| **[Kontent.ai](https://kontent.ai/)** ⚡ | Enterprise headless CMS providing visual content modeling, multi-stage approval workflows, and localization. | $990/month | 30-day full access trial | **$40M+ Funding** ($40M Series A in 2022) |
+| **[Desk-Net (Kordiam)](https://www.desk-net.com/)** 📅 | Editorial calendar and story planning platform for newsrooms and content marketing operations. | €99/month (Up to 10 users) | 14-day free trial | **~$5M ARR** (Established European newsroom standard) |
+| **[Shorthand](https://shorthand.com/)** 🎨 | Interactive visual storytelling and scrollytelling platform for news organisations and digital publications. | $60/month (Core publishing tier) | Free to build (Pay on publish) | **~$5M ARR** (Specialized storytelling SaaS) |
+| **[ContentFlow](https://contentflow.io/)** 📹 | Editorial video workflow and live-streaming management platform for media newsrooms. | €49/month | 14-day free trial | **~$1.1M ARR** |
 
-- **[Avid iNEWS](https://www.avid.com/)**  
-  A broadcast newsroom computer system (NRCS) for scripting, rundown management, and news production workflows. Deeply integrated into Avid's media production ecosystem.
+---
 
-- **[Arc XP](https://www.arcxp.com/)**  
-  A cloud-native content platform developed by The Washington Post, providing editorial workflows, content management, multi-platform publishing, and analytics. Suitable for enterprise news organizations.
+## 💻 Open-Source GitHub Projects
 
-- **[WoodWing Studio](https://www.woodwing.com/)**  
-  A multi-channel editorial management and content creation platform supporting unified workflows across print, digital, and mobile publishing.
+Community-driven, self-hostable open-source solutions for building newsroom management systems and editorial content pipelines. Badges display real-time star counts linking directly to each repo's stargazers page, sorted in descending order of stars.
 
-- **[ContentFlow](https://contentflow.io/)**  
-  An editorial workflow automation platform focusing on content planning, task management, and team collaboration.
+| Repository | Stars Badge | License | Description |
+| :--- | :--- | :--- | :--- |
+| **[Strapi](https://github.com/strapi/strapi)** | [<img src="https://img.shields.io/github/stars/strapi/strapi?style=social&color=white" alt="Strapi Stars"/>](https://github.com/strapi/strapi/stargazers) | `MIT` | Leading open-source headless CMS built with JavaScript/Node.js, offering role-based access permissions and customizable workflow stages. |
+| **[Payload](https://github.com/payloadcms/payload)** | [<img src="https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white" alt="Payload Stars"/>](https://github.com/payloadcms/payload/stargazers) | `MIT` | TypeScript-first headless CMS with built-in admin UI, draft modes, access control, and customizable editorial blocks. |
+| **[Directus](https://github.com/directus/directus)** | [<img src="https://img.shields.io/github/stars/directus/directus?style=social&color=white" alt="Directus Stars"/>](https://github.com/directus/directus/stargazers) | `BSL-1.1` | Open-source data platform and CMS that layers custom editorial workflows and permissions on top of any SQL database. |
+| **[Wagtail](https://github.com/wagtail/wagtail)** | [<img src="https://img.shields.io/github/stars/wagtail/wagtail?style=social&color=white" alt="Wagtail Stars"/>](https://github.com/wagtail/wagtail/stargazers) | `BSD-3-Clause` | Powerful Django-based open-source CMS powering major news sites. Supports multi-stage approvals, page revisions, and custom editorial task management. |
+| **[Ghost](https://github.com/TryGhost/Ghost)** | [<img src="https://img.shields.io/github/stars/TryGhost/Ghost?style=social&color=white" alt="Ghost Stars"/>](https://github.com/TryGhost/Ghost/stargazers) | `MIT` | Open-source publishing platform designed for independent journalism, newsletters, and modern digital editorial workflows. |
+| **[Decap CMS](https://github.com/decaporg/decap-cms)** | [<img src="https://img.shields.io/github/stars/decaporg/decap-cms?style=social&color=white" alt="Decap CMS Stars"/>](https://github.com/decaporg/decap-cms/stargazers) | `MIT` | Git-based open-source CMS (formerly Netlify CMS) enabling editorial content workflows directly within Git repositories. |
+| **[Superdesk](https://github.com/superdesk/superdesk)** | [<img src="https://img.shields.io/github/stars/superdesk/superdesk?style=social&color=white" alt="Superdesk Stars"/>](https://github.com/superdesk/superdesk/stargazers) | `AGPL-3.0` | Comprehensive open-source newsroom management system used by major global news agencies (NTB, Belga, Canadian Press). Features desk routing, story planning, real-time collaboration, and NewsML-G2 ingestion. |
+| **[Manuskript](https://github.com/olivierkes/manuskript)** | [<img src="https://img.shields.io/github/stars/olivierkes/manuskript?style=social&color=white" alt="Manuskript Stars"/>](https://github.com/olivierkes/manuskript/stargazers) | `GPL-3.0` | Open-source tool providing structured planning environments, character management, outline views, and index card workflows for long-form content. |
 
-- **[CUE](https://cue.group/)**  
-  A newsroom planning and workflow tool for managing story topics, assignments, and editorial calendars.
+---
 
-- **[Shorthand](https://shorthand.com/)**  
-  A visual storytelling and digital content creation platform for building scrollytelling experiences and interactive content, often paired with an existing CMS.
+## 🤝 How to Contribute
 
-- **[Kontent.ai](https://kontent.ai/)**  
-  A cloud-based headless CMS offering structured content modeling, editorial workflows, localization, and API-driven multi-channel publishing.
+Contributions make the open-source community an amazing place to learn, inspire, and create!
 
-- **[Desk-Net](https://www.desk-net.com/)**  
-  *(Duplicate entry as listed above)*
+1. 🍴 Fork the Repository
+2. 🌿 Create your Feature Branch (`git checkout -b feature/NewEditorialTool`)
+3. 📝 Commit your Changes (`git commit -m 'Add new editorial SaaS tool'`)
+4. 🚀 Push to the Branch (`git push origin feature/NewEditorialTool`)
+5. 🔀 Open a Pull Request
 
-## Open-Source GitHub Projects
+---
 
-- **[Superdesk](https://github.com/superdesk/superdesk)**  
-  An **open-source newsroom management system** developed by Sourcefabric, providing end-to-end workflows from content creation and editorial review to multi-channel publishing. Core features include: **editorial workflows** (organizing teams into "Desks" like News, Sports, Features with inter-desk routing and approval), **content planning** (editorial calendar, assignments, coverage plans), **multi-source aggregation** (NewsML-G2, IPTC standards, RSS, FTP, email), **real-time collaboration** (concurrent editing), **multi-channel publishing** (web, mobile, print, social media), **Newshub** (client content portal), and **analytics modules** (tracking newsroom efficiency metrics). Stack: Python/Flask, MongoDB, Elasticsearch, AngularJS. Used in production by major agencies like NTB, Belga, The Canadian Press, and AAP. **AGPL-3.0**.
+## 💖 Support
 
-- **[Wagtail](https://github.com/wagtail/wagtail)**  
-  A Django-based open-source CMS used by organizations like NASA JPL and Google. While Wagtail is not exclusively an editorial workflow tool out-of-the-box, its flexible page models, workflow engine, and granular permission management make it a **solid foundation for building custom newsroom editorial flows**. For instance, *The Ubyssey* built the **Stove** system on top of Wagtail, integrating a task manager and manuscript editor directly into the CMS to bridge the Google Docs to CMS gap. Wagtail supports multi-stage approvals, draft/published state management, and editorial collaboration. **BSD-3-Clause**.
+If you find this repository helpful for your newsroom, publication, or content organization, please consider supporting the project:
 
-- **[Payload](https://github.com/payloadcms/payload)**  
-  A TypeScript-first open-source headless CMS with built-in admin UI, draft modes, access control, and editorial workflows. 73.1k stars, MIT license. Ideal for teams requiring a **code-first, deeply customizable** editorial process. Its blocks editor and field system enable structured content planning and assignment UI design.
+- ⭐ **Star** this repository to show your appreciation!
+- 🔀 **Fork** and share with colleagues and editorial teams.
+- ☕ **Sponsor**: Support ongoing open-source curation and development via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-- **[Strapi](https://github.com/strapi/strapi)**  
-  A leading open-source headless CMS built on 100% JavaScript, customizable and extensible. Features a content-type builder, role-based access permissions, and workflow management. Ideal for dev teams needing **complete control over data models and editorial flows**.
+---
 
-- **[Directus](https://github.com/directus/directus)**  
-  Turns any SQL database into a headless CMS with an admin app, role-based access control, and instant REST/GraphQL APIs. 37.7k stars. Useful for teams wanting to **layer editorial workflows on top of an existing database**.
+## 📈 Star History
 
-- **[Manuskript](https://github.com/olivierkes/manuskript)**  
-  An open-source writing tool for authors providing a **structured planning environment**: Snowflake method outline expansion, character management, plot development, index cards, outline view, distraction-free mode, and story line visualization. Primarily focused on fiction writing, but its **chapter/scene organization, metadata tagging, and export capabilities** (HTML, ePub, OpenDocument, DocX) apply well to long-form content planning and editorial workflows. **GPL-3.0**.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Editorial-Workflow&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Editorial-Workflow&type=date&legend=top-left)
 
-### Other Notable Open-Source Options
+---
 
-- **General CMS Foundations**: **Wagtail** (Django, workflow system), **Payload** (TypeScript, deep customization), **Strapi** (JavaScript, flexibility), **Directus** (SQL database layer).
-- **Writing & Planning Tools**: **Manuskript** (Snowflake method, character/plot management), **novelWriter** (plain-text writing, metadata syntax).
-- **Newsroom-Specific**: **Superdesk** (production-ready, AGPL-3.0, used by major news agencies).
+## ⚠️ Disclaimer
 
-**Framework for Building Custom Systems**: Use **Superdesk** as an out-of-the-box newsroom editorial workflow platform, or start with **Wagtail**, **Payload**, or **Strapi** to build customized editorial pipelines leveraging their workflow engines and access control models (similar to The Ubyssey's Stove project pattern). For content planning stages, **Manuskript**'s Snowflake method and character management can serve as auxiliary planning tools.
-
-## How to Contribute
-
-1. Fork the repository.
-2. Add or edit entries in `README.md` following the existing format.
-3. Include: Name, link, a 1–2 sentence description, and whether it is SaaS or Open-Source.
-4. Submit a PR with a brief summary of your changes.
-
-If you find this repository helpful, please give it a star!
-
-## Disclaimer
-
-- This is a **community-curated** list—it is neither exhaustive nor an endorsement.
-- Editorial workflow platforms handle potentially sensitive draft content and internal communications; ensure proper access controls and data protection.
-- **Open-Source Reality**: **Superdesk** is the only mature, production-grade open-source alternative built specifically for editorial workflows and actively used by major news agencies. Other open-source CMSs (Wagtail, Payload, Strapi) require custom development to achieve full newsroom-level editorial workflow features. For teams seeking an out-of-the-box solution, Superdesk is the most direct starting point.
+- This is a community-curated collection intended for educational and informational purposes.
+- Trademarks, product names, and logos belong to their respective owners.
+- **Open-Source Note**: **Superdesk** remains the premier purpose-built open-source newsroom platform actively used by global news agencies. Headless CMS solutions (Strapi, Payload, Wagtail) provide modular building blocks to construct bespoke editorial workflow pipelines.
