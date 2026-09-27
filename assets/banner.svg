@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <style>
+      .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 48px; fill: url(#titleGrad); }
+      .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 20px; fill: #94a3b8; }
+      .badge-text { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+      
+      @keyframes float1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes float2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.08); }
+      }
+      @keyframes dashFlow {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .bg-element-1 { animation: float1 8s ease-in-out infinite; transform-origin: center; }
+      .bg-element-2 { animation: float2 10s ease-in-out infinite; transform-origin: center; }
+      .glow-orb { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .flow-line { stroke-dasharray: 10, 10; animation: dashFlow 20s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Ambient Glowing Orbs (Background layer) -->
+  <circle class="glow-orb" cx="150" cy="80" r="120" fill="#6366f1" filter="url(#glow)"/>
+  <circle class="glow-orb" cx="1050" cy="220" r="140" fill="#a855f7" filter="url(#glow)"/>
+
+  <!-- Dynamic / Animated Workflow Connections (Background layer) -->
+  <g stroke="rgba(255,255,255,0.15)" stroke-width="2" fill="none" class="flow-line">
+    <path d="M 100 240 Q 250 280 400 240 T 700 250 T 1100 220" />
+    <path d="M 50 60 Q 300 20 550 50 T 950 40 T 1150 90" />
+  </g>
+
+  <!-- Dynamic Animated Cards / Elements (Positioned away from text center) -->
+  <!-- Floating Card Left -->
+  <g class="bg-element-1" transform="translate(60, 150)">
+    <rect width="180" height="90" rx="12" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1"/>
+    <circle cx="30" cy="30" r="12" fill="#38bdf8" opacity="0.8"/>
+    <rect x="52" y="24" width="90" height="12" rx="4" fill="#94a3b8" opacity="0.6"/>
+    <rect x="30" y="54" width="120" height="8" rx="3" fill="#64748b" opacity="0.4"/>
+  </g>
+
+  <!-- Floating Card Right -->
+  <g class="bg-element-2" transform="translate(960, 60)">
+    <rect width="180" height="90" rx="12" fill="url(#cardGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1"/>
+    <circle cx="30" cy="30" r="12" fill="#c084fc" opacity="0.8"/>
+    <rect x="52" y="24" width="90" height="12" rx="4" fill="#94a3b8" opacity="0.6"/>
+    <rect x="30" y="54" width="120" height="8" rx="3" fill="#64748b" opacity="0.4"/>
+  </g>
+
+  <!-- Foreground Title and Subtitle (Crisp & High Contrast) -->
+  <g text-anchor="middle">
+    <!-- Icon / Badge above title -->
+    <g transform="translate(600, 52)">
+      <rect x="-90" y="-16" width="180" height="32" rx="16" fill="rgba(99, 102, 241, 0.25)" stroke="#818cf8" stroke-width="1"/>
+      <text x="0" y="5" class="badge-text" text-anchor="middle">📰 EDITORIAL ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="135" class="title">Awesome Editorial Workflow</text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="175" class="subtitle">Curated SaaS Platforms &amp; Open-Source Newsroom Systems</text>
+    
+    <!-- Feature Pill Badges -->
+    <g transform="translate(600, 225)">
+      <g transform="translate(-240, 0)">
+        <rect x="-70" y="-14" width="140" height="28" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+        <text x="0" y="4" class="badge-text">⚡ Newsroom Workflows</text>
+      </g>
+      <g transform="translate(0, 0)">
+        <rect x="-70" y="-14" width="140" height="28" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+        <text x="0" y="4" class="badge-text">📅 Content Planning</text>
+      </g>
+      <g transform="translate(240, 0)">
+        <rect x="-70" y="-14" width="140" height="28" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+        <text x="0" y="4" class="badge-text">🚀 Multi-Channel Publishing</text>
+      </g>
+    </g>
+  </g>
+</svg>
