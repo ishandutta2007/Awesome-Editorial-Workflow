@@ -52,9 +52,9 @@ The table below outlines enterprise SaaS solutions for editorial newsrooms and c
 
 ## 💻 Open-Source GitHub Projects
 
-Community-driven, self-hostable open-source solutions for building newsroom management systems and editorial content pipelines. Badges display real-time star counts linking directly to each repo's stargazers page, sorted in descending order of stars.
+Community-driven, self-hostable open-source solutions for building newsroom management systems and editorial content pipelines. Badges display real-time Stars_Counts linking directly to each repo's stargazers page, sorted in descending order of stars.
 
-| Repository | Stars Badge | License | Description |
+| Repository | Stars_Badge | License | Description |
 | :--- | :--- | :--- | :--- |
 | **[Strapi](https://github.com/strapi/strapi)** | [<img src="https://img.shields.io/github/stars/strapi/strapi?style=social&color=white" alt="Strapi Stars"/>](https://github.com/strapi/strapi/stargazers) | `MIT` | Leading open-source headless CMS built with JavaScript/Node.js, offering role-based access permissions and customizable workflow stages. |
 | **[Payload](https://github.com/payloadcms/payload)** | [<img src="https://img.shields.io/github/stars/payloadcms/payload?style=social&color=white" alt="Payload Stars"/>](https://github.com/payloadcms/payload/stargazers) | `MIT` | TypeScript-first headless CMS with built-in admin UI, draft modes, access control, and customizable editorial blocks. |
